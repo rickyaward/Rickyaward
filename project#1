@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="shortcut icon" href="http://uncletonysnypizza.com/wp-content/uploads/2012/10/pep_pizza_BIG.jpg">
+	<title>Yummy food</title>	
+	</head>
+	<h1>Frozen pizza</h1>
+	<body>
+		<p>You dont have to be a stoner to love this stuff</p>			
+			<h2>Ingredients</h2>
+
+	
+	<table>
+            <tr>
+                <td><h3>Quanity</h3></td>
+                <td><h3>Ingrediets</h3></td>     
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>Frozen pizza</td>
+            </tr>
+
+            <tr>
+            	<td>1</td>
+            	<td>Microwave</td>
+            </tr>
+
+            <tr>
+            	<td>1</td>
+            	<td>Source of power</td>
+            </tr>
+    </table>
+
+    <h3>Instructions</h3>
+    	<ol>
+    		<li>Open pizza</li>
+    		<li>put in microwave for the time posted on the box</li>
+    		<li>Let cool</li>
+    		<li>Enjoy</li>
+    	</ol>
+
+    	<h4>Sign up for my newsletter!</h4>
+
+    	<p>Name:</p>
+    		<form action="#" method="POST" name="my_form">
+    		<input type="text" name="name"</imput>
+
+    	<p>Email:</p>
+    		<input type="text" name="email"</imput>
+    		
+    	<select>Your favorite food:>
+    		<option>pizza</option>
+    		<option>steak</option>
+    		<option>hot dogs</option>
+    		<option>chicken</option>
+    		<option>sandwich</option>
+    	</select>
+		
+		<br><input type="submit" value="submit"</input>
+    	
+    	</form>
+
+		<br><a href=https://mail.google.com/mail/u/0/?pli=1#inbox>
+	    rickyaward@gmail.com</a> | 
+			407-687-2235
+
+
+
+	</body>
+</html>
