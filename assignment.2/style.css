@@ -1,0 +1,38 @@
+
+*{
+	font-family: arial;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #555555;
+}
+
+h2{
+	font-size: 18px;
+}
+
+header{
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+
+footer{
+	font-size: 12px;
+}
+
+ol{
+	margin-top: 40px;
+}
+
+
+tr:hover {
+	background-color: #FEFFDB;
+}
+
+td:nth-child(odd){
+	width: 100px;
+	font-weight:bold;
+
+}
+
