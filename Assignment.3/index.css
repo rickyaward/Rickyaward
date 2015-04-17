@@ -1,7 +1,10 @@
 
 *{
+    font-color:#555555;
     font-family: arial;
 }
+
+
 
 
 #browsebox {
@@ -18,7 +21,8 @@
 
 }
 
-#mainheading {
+
+h4[class="topbar"] {
     background-color: lightgray;
     text-align: left;
     padding: 1px;
@@ -27,9 +31,6 @@
     text-decoration: underline;
     font-size: 18px;
     color:purple;
-
-
-
 }
 
 #description {
