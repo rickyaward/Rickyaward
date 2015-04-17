@@ -1,0 +1,56 @@
+
+*{
+	color:#555555;
+	font-family: arial;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: black;
+}
+
+h2{
+	font-size: 18px;
+}
+
+thead{
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+
+footer{
+	font-size: 12px;
+}
+
+ol,h3{
+	margin-top: 40px;
+}
+
+
+tr:hover {
+	background-color: #FEFFDB;
+	cursor: pointer;
+}
+
+td:nth-child(odd){
+	width: 100px;
+	font-weight:bold;
+
+}
+#instructions {
+	margin-top: 40px;
+}
+
+.phone::before {
+	content:"\2706";
+}
+
+
+
+
+
+
+
+
+
+

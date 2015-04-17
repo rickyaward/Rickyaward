@@ -1,0 +1,44 @@
+
+*{
+    font-family: arial;
+}
+
+
+#browsebox {
+    border-radius: 25px;
+    border: 1px solid red;
+    background: lightyellow;
+    padding: 20px; 
+    width: 400px;
+    height: 150px; 
+	}
+
+#pizzalink {
+	margin-top: 20px;
+
+}
+
+#mainheading {
+    background-color: lightgray;
+    text-align: left;
+    padding: 1px;
+    font-weight: bold;
+    height: 120px;
+    text-decoration: underline;
+    font-size: 18px;
+    color:purple;
+
+
+
+}
+
+#description {
+    font-size: 12px;
+    font-style: normal;
+}
+
+
+
+.phone::before {
+	content:"\2706";
+	}
