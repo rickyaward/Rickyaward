@@ -41,6 +41,9 @@ td:nth-child(odd){
 	margin-top: 40px;
 }
 
+.phone::before {
+	content:"\2706";
+}
 
 
 
