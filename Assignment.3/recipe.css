@@ -1,8 +1,16 @@
 
 *{
-	font-color:#555555;
 	font-family: arial;
 }
+
+body{
+	font-color:#555555;
+}
+
+hr{
+    color:#dddddd;
+}
+
 
 h1,h2,h3,h5,h6{
 	color: black;
@@ -14,19 +22,20 @@ h2{
 h1{
 	font-size: 18px;
 }
-.saverecipe {
-	border-radius: 15px;
-    border: 1px #8ABD2B;
-    background: #C8F279;
-    padding: 20px; 
-    width: 100px;
-    height: 30px; 
-    float:left;
-}
+
 
 p[class=savebutton] {
+	border-radius: 2px;
+    border-width: 2px;
+    border-style:solid;
+   	background: #C8F279;
+	color:#8ABD2B;
 	font-size: 14px;
+	float: right;
 }
+
+
+
 
 h4[class="topbar"] {
     background-color: lightgray;
