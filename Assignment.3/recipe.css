@@ -9,17 +9,23 @@ h1,h2,h3,h5,h6{
 }
 
 h2{
+	font-size: 24px;
+}
+h1{
 	font-size: 18px;
 }
-
 .saverecipe {
 	border-radius: 15px;
-    border: 1px darkgreen;
-    background: limegreen;
+    border: 1px #8ABD2B;
+    background: #C8F279;
     padding: 20px; 
     width: 100px;
-    height: 50px; 
+    height: 30px; 
     float:left;
+}
+
+p[class=savebutton] {
+	font-size: 14px;
 }
 
 h4[class="topbar"] {

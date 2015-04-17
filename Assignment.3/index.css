@@ -4,17 +4,20 @@
     font-family: arial;
 }
 
-
+hr{
+    color:#dddddd;
+}
 
 
 #browsebox {
     border-radius: 25px;
-    border: 1px solid red;
-    background: lightyellow;
+    border-width: 5px;
+    border-color: #444444;
+    border-style: solid;
+    background: #FEFFDB;
     padding: 20px; 
     width: 400px;
     height: 150px; 
-    padding-top: 30px;
     }
 
 #pizzalink {
