@@ -29,9 +29,10 @@ p[class=savebutton] {
     border-width: 2px;
     border-style:solid;
    	background: #C8F279;
-	color:#8ABD2B;
+	border-color:#8ABD2B;
 	font-size: 14px;
 	float: right;
+	padding:2px;
 }
 
 
