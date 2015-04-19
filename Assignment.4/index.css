@@ -1,0 +1,48 @@
+
+*{
+    font-color:#555555;
+    font-family: arial;
+}
+
+hr{
+    color:#dddddd;
+}
+
+
+#browsebox {
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: #444444;
+    border-style: solid;
+    background: #FEFFDB;
+    padding: 20px; 
+    width: 400px;
+    height: 150px; 
+    }
+
+#pizzalink {
+	margin-top: 20px;
+
+}
+
+
+h4[class="topbar"] {
+    background-color: lightgray;
+    text-align: left;
+    padding: 1px;
+    height: 120px;
+    text-decoration: underline;
+    font-size: 18px;
+    color:purple;
+}
+
+#description {
+    font-size: 12px;
+    font-style: normal;
+}
+
+
+
+.phone::before {
+	content:"\2706";
+	}
