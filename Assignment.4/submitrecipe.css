@@ -1,14 +1,38 @@
-h4[class="topbar"] {
+.topbar {
     background-color: lightgray;
     text-align: left;
     padding: 1px;
-    height: 120px;
+    height: 100%;
     font-size: 18px;
     color:purple;
+    display: flex;
+}
+
+.main-logo: {
+	display:flex;
+	align-self:center;
+	margin-right: auto;
 }
 
 #addr {
-background-color:lightgray;
-height: 400px;
-width: 200px;
+	background-color:lightgray;
+	height: 400px;
+	width: 200px;
 }
+.s {
+	display: flex;
+	align-self:center;
+	margin-left: auto;
+	
+}
+.r {
+	display: flex;
+	align-self:center;
+	margin-left:10px;
+	
+}
+.h {
+	display: flex;
+	align-self:center;
+	margin-left: 10px;
+	
