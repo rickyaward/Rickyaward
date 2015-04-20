@@ -22,14 +22,14 @@ hr {
     margin-top: 20px;
 }
 
-h4[class="topbar"] {
+.topbar {
     background-color: lightgray;
     text-align: left;
     padding: 1px;
-    height: 120px;
-    text-decoration: underline;
+    height: 100%;
     font-size: 18px;
     color: purple;
+    display: flex;
 }
 
 #description {
@@ -40,3 +40,20 @@ h4[class="topbar"] {
 .phone::before {
     content: "\2706";
 }
+.s {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+}
+
+.r {
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.h {
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    }
