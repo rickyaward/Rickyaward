@@ -1,13 +1,11 @@
-
-*{
-    font-color:#555555;
+* {
+    font-color: #555555;
     font-family: arial;
 }
 
-hr{
-    color:#dddddd;
+hr {
+    color: #dddddd;
 }
-
 
 #browsebox {
     border-radius: 25px;
@@ -15,16 +13,14 @@ hr{
     border-color: #444444;
     border-style: solid;
     background: #FEFFDB;
-    padding: 20px; 
+    padding: 20px;
     width: 400px;
-    height: 150px; 
-    }
-
-#pizzalink {
-	margin-top: 20px;
-
+    height: 150px;
 }
 
+#pizzalink {
+    margin-top: 20px;
+}
 
 h4[class="topbar"] {
     background-color: lightgray;
@@ -33,7 +29,7 @@ h4[class="topbar"] {
     height: 120px;
     text-decoration: underline;
     font-size: 18px;
-    color:purple;
+    color: purple;
 }
 
 #description {
@@ -41,8 +37,6 @@ h4[class="topbar"] {
     font-style: normal;
 }
 
-
-
 .phone::before {
-	content:"\2706";
-	}
+    content: "\2706";
+}

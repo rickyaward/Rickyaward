@@ -1,41 +1,41 @@
-
-*{
-	font-family: arial;
+* {
+    font-family: arial;
 }
 
-body{
-	font-color:#555555;
+body {
+    font-color: #555555;
 }
 
-hr{
-    color:#dddddd;
+hr {
+    color: #dddddd;
 }
 
-
-h1,h2,h3,h5,h6{
-	color: black;
+h1,
+h2,
+h3,
+h5,
+h6 {
+    color: black;
 }
 
-h2{
-	font-size: 24px;
-}
-h1{
-	font-size: 18px;
+h2 {
+    font-size: 24px;
 }
 
+h1 {
+    font-size: 18px;
+}
 
 p[class=savebutton] {
-	border-radius: 2px;
+    border-radius: 2px;
     border-width: 2px;
-    border-style:solid;
-   	background: #C8F279;
-	border-color:#8ABD2B;
-	font-size: 14px;
-	float: right;
-	padding:2px;
+    border-style: solid;
+    background: #C8F279;
+    border-color: #8ABD2B;
+    font-size: 14px;
+    float: right;
+    padding: 2px;
 }
-
-
 
 h4[class="topbar"] {
     background-color: lightgray;
@@ -44,50 +44,38 @@ h4[class="topbar"] {
     height: 120px;
     text-decoration: underline;
     font-size: 18px;
-    color:purple;
+    color: purple;
 }
 
-
-
-thead{
-	height: 40px;
-	font-size: 14px;
-	text-align: left;
+thead {
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
 }
 
-footer{
-	font-size: 12px;
+footer {
+    font-size: 12px;
 }
 
-ol,h3{
-	margin-top: 40px;
+ol,
+h3 {
+    margin-top: 40px;
 }
-
 
 tr:hover {
-	background-color: #FEFFDB;
-	cursor: pointer;
+    background-color: #FEFFDB;
+    cursor: pointer;
 }
 
-td:nth-child(odd){
-	width: 100px;
-	font-weight:bold;
-
+td:nth-child(odd) {
+    width: 100px;
+    font-weight: bold;
 }
+
 #instructions {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 .phone::before {
-	content:"\2706";
+    content: "\2706";
 }
-
-
-
-
-
-
-
-
-
-
