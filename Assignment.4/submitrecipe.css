@@ -8,6 +8,7 @@
     display: flex;
 }
 
+
 .main-logo: {
     display: flex;
     align-self: center;
@@ -20,23 +21,26 @@
     width: 200px;
 }
 
-.s {
+nav ul{
     display: flex;
-    align-self: center;
-    margin-left: auto;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
-.r {
-    display: flex;
+nav ul li{
+    list-style-type: none;
     align-self: center;
-    margin-left: 10px;
+    flex-direction: row;
+    padding-right: 50px;
+    display: flex;
+    margin-left: 25px;
+}
+nav ul li img{
+    margin-left: -35px;
+    padding-right: 400px;
 }
 
-.h {
-    display: flex;
-    align-self: center;
-    margin-left: 10px;
-}
+
 .submit{
     background: lightgray;
     width: 200px
