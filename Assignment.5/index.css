@@ -1,0 +1,103 @@
+* {
+    font-color: #555555;
+    font-family: arial;
+}
+
+hr {
+    color: #dddddd;
+}
+ 
+.browsebox {
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: #444444;
+    border-style: solid;
+    background: #FEFFDB;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+}
+
+#pizzalink {
+    margin-top: 20px;
+}
+
+.topbar {
+    background-color: lightgray;
+    text-align: left;
+    padding: 1px;
+    height: 100%;
+    font-size: 18px;
+    color: purple;
+    display: flex;
+}
+
+#description {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.phone::before {
+    content: "\2706";
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style-type: none;
+    align-self: center;
+    flex-direction: row;
+    padding-right: 50px;
+    display: flex;
+    margin-left: 25px;
+}
+nav ul li img{
+    margin-left: -35px;
+    padding-right: 400px;
+}
+/*----Media screen----*/
+@media screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li img {
+        margin: 0;
+        padding: 0;
+    }
+     .submit {
+      margin-left: 25%;
+     }
+
+     .contact {
+      text-align: center;
+     }
+
+    .mainlogo{
+      text-align: center;
+    }
+    .form{
+      text-align: center;
+    }
+    .browsebox{
+        text-align: center;
+        width: 200px;   
+        flex-direction: column;
+        margin-left: 55px;
+    }
+    .h3{
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+
+
+
+

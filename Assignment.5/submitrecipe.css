@@ -1,0 +1,98 @@
+.topbar {
+    background-color: lightgray;
+    text-align: left;
+    padding: 1px;
+    height: 100%;
+    font-size: 18px;
+    color: purple;
+    display: flex;
+}
+
+.main-logo: {
+    display: flex;
+    align-self: center;
+    margin-right: auto;
+}
+
+#addr {
+    background-color: lightgray;
+    height: 400px;
+    width: 200px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style-type: none;
+    align-self: center;
+    flex-direction: row;
+    padding-right: 50px;
+    display: flex;
+    margin-left: 25px;
+}
+
+nav ul li img {
+    margin-left: -35px;
+    padding-right: 400px;
+}
+
+.submit {
+    background: lightgray;
+    width: 200px
+}
+
+select {
+    padding: 10px;
+    margin: 10px;
+    width: 55%;
+}
+
+input,
+label {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+fieldset {
+    border: solid 5px;
+    padding-top: 25px;
+    height: 500px;
+    width: 300px;
+}
+/*----Media screen----*/
+@media screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li img {
+        margin: 0;
+        padding: 0;
+    }
+     .submit {
+      margin-left: 25%;
+     }
+
+     .contact {
+      text-align: center;
+     }
+
+    .sumbullshit {
+      text-align: center;
+    }
+    
+
+
+
+
+
+
+}
+
+
+
