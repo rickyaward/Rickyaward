@@ -1,0 +1,26 @@
+.jumbotron{
+	text-align: center;
+}
+.nav nav tabs{
+	text-align: center;
+}
+.circle1 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	color: tan;
+	background-color: lightgray;
+}
+.circle2{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+}
+.circle3 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+}
+
