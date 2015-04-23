@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -7,8 +8,47 @@
 </head>
 
 <body>
-    <p></p>
-    <script type="text/javascript" src="main.js"></script>
+    <p>
+    	<button type="button" id="button1" class="btn btn-default">Click for greeting</button>
+    	<button type="button" id="button2" class="btn btn-default">Chevy</button>
+    	<button type="button" class="btn btn-default">Default</button>
+    	<button type="button" class="btn btn-default">Default</button>
+    	<button type="button" class="btn btn-default">Default</button>
+    	<button type="button" class="btn btn-default">Default</button>
+    	<button type="button" id="button7" class="btn btn-default">HONK!</button>
+    </p>
+   
+
+<script language="javascript" type="text/javascript">
+
+var name = "ricky";
+console.log(name);
+
+
+	 
+	document.getElementById("button1").addEventListener("click",function() {
+	console.log("hello " + "ricky");
+	},false);
+
+
+var myArray = ["ford", "chevy", "dodge", "toyota"];
+
+	document.getElementById("button2").addEventListener("click",function() {
+	console.log(myArray[1]);
+	},false);
+
+
+var car = "HONK";
+document.getElementById("button7").addEventListener("click",function() {
+	console.log(car);
+	},false);
+
+
+</script>
+
+
 </body>
+
+
 
 </html>
