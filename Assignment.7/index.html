@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -9,46 +8,66 @@
 
 <body>
     <p>
-    	<button type="button" id="button1" class="btn btn-default">Click for greeting</button>
-    	<button type="button" id="button2" class="btn btn-default">Chevy</button>
-    	<button type="button" class="btn btn-default">Default</button>
-    	<button type="button" class="btn btn-default">Default</button>
-    	<button type="button" class="btn btn-default">Default</button>
-    	<button type="button" class="btn btn-default">Default</button>
-    	<button type="button" id="button7" class="btn btn-default">HONK!</button>
+        <button type="button" id="button1" class="btn btn-default">my name</button>
+        <button type="button" id="button2" class="btn btn-default">say hi</button>
+        <button type="button" id="button3" class="btn btn-default">chevy</button>
+        <button type="button" id="button4" class="btn btn-default">1-10</button>
+        <button type="button" id="button5"class="btn btn-default">Default</button>
+        <button type="button" id="button6" class="btn btn-default">Default</button>
+        <button type="button" id="button7" class="btn btn-default">HONK!</button>
     </p>
-   
+    <script type="text/javascript">
+//--------------------------button 1
+    var name = "ricky";
+    
+	document.getElementById("button1").addEventListener("click", function() {
+    console.log(name);
+     }, false);
+//--------------------button 2
+    document.getElementById("button2").addEventListener("click", function() {
+        console.log("hello " + "ricky");
+    }, false);
 
-<script language="javascript" type="text/javascript">
+//-------------------------button 3
+    var myArray = ["Ford", "Chevy", "Dodge", "Porsha"];
 
-var name = "ricky";
-console.log(name);
+    document.getElementById("button3").addEventListener("click", function() {
+        console.log(myArray[1]);
+    }, false);
+//-------------------------button 4
+	document.getElementById("button4").addEventListener("click", function() {
+        for (i = 0; i < 11; i++) {
+        console.log(i);
+        }
+    }, false);
+
+//-------------------------button 5
+var myArray = ["Ford", "Chevy", "Dodge", "Porsha"];
+document.getElementById("button5").addEventListener("click", function() {
+	for (i = 0; i < myArray.length; i++) {
+	console.log(myArray[i]);
+	}}, false);
+//-------------------------button 6
+var myArray = ["Ford", "Chevy", "Dodge", "Porsha"];
+document.getElementById("button6").addEventListener("click", function() {
+	for (i = 0; i < myArray.length;i++){
+	if(myArray[i].substring(0,1) == "P"){
+	console.log(myArray[i]);
+	}}}, false)
 
 
-	 
-	document.getElementById("button1").addEventListener("click",function() {
-	console.log("hello " + "ricky");
-	},false);
+//-------------------------button 7
+   var car = {
+   		door: 4, 
+   		honk: function(){
+        	console.log("honk");
+        }
+    };
 
+    document.getElementById("button7").addEventListener("click", function() {
+    car.honk()});
 
-var myArray = ["ford", "chevy", "dodge", "toyota"];
-
-	document.getElementById("button2").addEventListener("click",function() {
-	console.log(myArray[1]);
-	},false);
-
-
-var car = "HONK";
-document.getElementById("button7").addEventListener("click",function() {
-	console.log(car);
-	},false);
-
-
-</script>
-
-
+ 	</script>
 </body>
-
-
 
 </html>
