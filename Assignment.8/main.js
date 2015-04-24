@@ -66,7 +66,21 @@ document.getElementById("button6").addEventListener("click", function() {
     console.log(i);
     }
  });
+ 
+ $("#change").hover(
+    function(){
+      var $this = $(this);
+      $this.data("color", $this.css("color")).css("color", "purple");
+    },
+    function(){
+      var $this = $(this);
+      $this.css("color", $this.data("color"));
+    }
+  );   
 
+$.each([ 1, 2, 3, 4, 5, 6 ], function( index, value ) {
+  console.log( index + ": " + value );
+});
 
 
 
