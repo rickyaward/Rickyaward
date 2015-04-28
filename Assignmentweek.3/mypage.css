@@ -1,0 +1,28 @@
+.jumbotron{
+	text-align: center;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+    background-image: url(http://www.bet.com/content/dam/betcom/images/2013/02/Celeb-02-16-02-28/022613-celebs-Tyrone-Biggums-dave-chappelle.jpg.custom1200x675x20.dimg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-top: 25px;
+}
+
+.container-fluid{
+	margin-right:30px; 
+	margin-left:30px;
+}
+#myemail{
+	float: left;
+}
+#phone{
+	float: left;
+}
+#address{
+	float: left;
+	margin-bottom: 100px;
+}
+
+
