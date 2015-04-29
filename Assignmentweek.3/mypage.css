@@ -22,7 +22,61 @@
 }
 #address{
 	float: left;
+	margin-bottom: 10px;
+	background: lightgray;
+}
+#myid{
+	margin-top: ;
+	margin-bottom: 100px;
+	background: lightgray;
+}
+#status{
+	margin-top: 100px;
+	margin-bottom: 175px;
+}
+#resume{
+	margin-top: ;
+	margin-bottom: ;
+	background:lightgray;
+}
+#customers{
+	margin-bottom: 200px;
+	margin-top: 200px;
+}
+#form{
+	display:flex;
+	align-items: center;
+	flex-wrap:wrap;
+	background: #323232;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 100px;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    text-height: -50px;
+}
+#mystats{
 	margin-bottom: 100px;
 }
+
+
+#copyright{
+	display: flex;
+	align-items: center;
+	background: #191919;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
