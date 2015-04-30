@@ -64,6 +64,13 @@
 	align-items: center;
 	background: #191919;
 	color: white;
+	flex-wrap:wrap;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80px;
+	text-align: center;
+	padding-left: 20px;
 }
 
 
@@ -71,7 +78,9 @@
 	margin-top: 50px;
 	background: lightgray;
 }
-
+#contact{
+	color: darkorange;
+}
 
 
 
